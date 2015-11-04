@@ -31,7 +31,7 @@ Icons are saved in an asset catalog called <b>Images.xcassets</b> along with oth
 
 Xcode displays the sizes of the icons in Points. 
 
-Size in Pixels = Points x Scale
+> Size in Pixels = Points x Scale
 
 | Points        | Pixels        | Phones  |
 | ------------- |:-------------:| -----:|
