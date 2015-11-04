@@ -23,4 +23,4 @@ To avoid this runtime penalty, scale the icons in advance and provide the aforem
 Prefer png over other formats, as Xcode automatically optimizes images of type .png at build time making them the most 
 efficient and fastest over other formats.
 
-Icons are saved in an asset catalog called <b>images.xcassets</b> along with other images of the app. 
+Icons are saved in an asset catalog called <b>Images.xcassets</b> along with other images of the app. 
