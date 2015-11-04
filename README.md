@@ -24,3 +24,9 @@ Prefer png over other formats, as Xcode automatically optimizes images of type .
 efficient and fastest over other formats.
 
 Icons are saved in an asset catalog called <b>Images.xcassets</b> along with other images of the app. 
+
+### AppIcon boxes
+
+![](https://github.com/konceptsandcode/iOS-Swift/blob/master/HelloWorld/Snapshots/AppIcons.png)
+
+Xcode displays the sizes of the icons in Points. 
