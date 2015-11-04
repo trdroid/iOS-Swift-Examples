@@ -30,3 +30,13 @@ Icons are saved in an asset catalog called <b>Images.xcassets</b> along with oth
 ![](https://github.com/konceptsandcode/iOS-Swift/blob/master/HelloWorld/Snapshots/AppIcons.png)
 
 Xcode displays the sizes of the icons in Points. 
+
+Size in Pixels = Points x Scale
+
+| Points        | Pixels        | Phones  |
+| ------------- |:-------------:| -----:|
+| 1             | 1             | < iPhone 4 |
+| 1             | 2 x 2         |   Retina Displays except iPhone 6 Plus |
+| 1             | 3 x 3         |   iPhone 6 Plus |
+
+
