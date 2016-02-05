@@ -188,11 +188,18 @@ Pop-up
 
 <b>Configuring the action method</b>
 
+Set the connnection to Action and type to UIButton
+
+<img src="_misc/action_name_type.png"/>
+
 <i>Setting number of arguments the action method accepts</i>
 
 <img src="_misc/Possible%20arguements%20to%20send%20to%20an%20action%20method.png"/>
 
 
+<b> Using the same action method for other buttons</b>
+
+<img src="_misc/Control%20Drag%20From%20Button%20to%20an%20Existing%20action%20method.png"/>
 
 
 
