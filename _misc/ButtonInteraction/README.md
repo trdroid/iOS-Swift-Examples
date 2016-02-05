@@ -119,6 +119,19 @@ UI objects in the storyboard or nib file can be setup to respond to events with 
 
 <b>action methods</b> or <b>actions</b> are methods annotated with <b>@IBAction</b>. The annotation specifies the Interface Builder that this method is an event handler that can be triggered by an event of a UI control in a storyboard or nib file. 
 
+To setup a UI control with an action method
+
+METHOD 1:
+* define an action method in the controller
+* control drag from the UI control to the action method
+
+(or)
+
+METHOD 2:
+* control drag from the UI control to the controller class where an action method has to be generated
+* a pop-up appears. Complete the settings to generate an action method
+
+
 Event handlers come in three flavors:
 
 1) Takes no argument
@@ -143,13 +156,43 @@ Event handlers come in three flavors:
 }
 ```
 
-To setup a UI control with an action method
-* define an action method in the controller
-* control drag from the UI control to the action method
+### Steps to Follow
 
-(or)
+<b>Layout the UI</b>
 
-* control drag from the UI control to the controller class where an action method has to be generated
-* a pop-up appears. Complete the settings to generate an action method
+Click on Main.storyboard to open the application's view in Interface Builder of Xcode.   
+
+The square box represents the application's only view. 
+
+Drag and drop buttons from the Object Library to the view, as shown below.
+
+<img src="_misc/Layout%20Buttons.png"/>
+
+<b>Setup action methods</b>
+
+Select a button and open the assistant editor. Notice the segments in the jump bar.  
+
+<img src="_misc/select%20button%20and%20show%20assistant%20editor.png"/>
+
+Control drag from a button to the controller class where the action method has to be generated
+
+<img src="_misc/control%20drag%20from%20button.png"/>
+
+A pop-up is displayed. Fill out the settings and click connect.
+
+<img src="_misc/buttonone_popup.png"/>
+
+Pop-up
+
+<img src="_misc/Connection%20Types.png"/>
+
+<b>Configuring the action method</b>
+
+<i>Setting number of arguments the action method accepts</i>
+
+<img src="_misc/Possible%20arguements%20to%20send%20to%20an%20action%20method.png"/>
+
+
+
 
 
