@@ -182,15 +182,23 @@ A pop-up is displayed. Fill out the settings and click connect.
 
 <img src="_misc/buttonone_popup.png"/>
 
-Pop-up
+<b>Pop-up</b>
+
+Connection Types 
 
 <img src="_misc/Connection%20Types.png"/>
+
+
 
 <b>Configuring the action method</b>
 
 Set the connnection to Action and type to UIButton
 
 <img src="_misc/action_name_type.png"/>
+
+Possible events for a UIButton. Leave the default, which is "Touch Up Inside" (the event is generated only when the button is touched and the finger is lifted from inside the button, whereas touching the button and dragging the finger outside of the button and lifting up the finger does not generate this event)
+
+<img src="_misc/Possible%20events%20for%20a%20UIButton.png"/>
 
 <i>Setting number of arguments the action method accepts</i>
 
