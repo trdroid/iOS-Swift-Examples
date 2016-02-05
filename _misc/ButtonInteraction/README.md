@@ -196,6 +196,9 @@ Set the connnection to Action and type to UIButton
 
 <img src="_misc/Possible%20arguements%20to%20send%20to%20an%20action%20method.png"/>
 
+After clicking connect, the following action method is generated
+
+<img src="_misc/generated%20and%20inserted%20action%20method.png"/>
 
 <b> Using the same action method for other buttons</b>
 
