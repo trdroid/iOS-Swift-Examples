@@ -188,11 +188,13 @@ Connection Types
 
 <img src="_misc/Connection%20Types.png"/>
 
-
-
 <b>Configuring the action method</b>
 
-Set the connnection to Action and type to UIButton
+Set the connnection to Action 
+
+<img src="_misc/popup_action_connection.png"/>
+
+Set the type to UIButton
 
 <img src="_misc/action_name_type.png"/>
 
