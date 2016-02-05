@@ -123,14 +123,14 @@ UI objects in the storyboard or nib file can be setup to respond to events with 
 
 Event handlers come in three flavors:
 
-1. Takes no argument
+1) Takes no argument
 
 ```swift
 @IBAction func buttonEventHandler() {
 }
 ```
 
-2. Takes one argument, the "sender" argument which points to the UI object on which the event occurred.
+2) Takes one argument, the "sender" argument which points to the UI object on which the event occurred.
  The "sender" argument allows a single action method to respond to events on multiple controls as it helps to identify what control the event occurred on. 
 
 ```swift
@@ -138,7 +138,7 @@ Event handlers come in three flavors:
 }
 ```
 
-3. Takes two arguments
+3) Takes two arguments
 
 ```swift
 @IBAction func buttonEventHandler(sender: UIButton, forEvent event: UIEvent) {
