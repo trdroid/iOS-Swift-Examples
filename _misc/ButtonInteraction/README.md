@@ -198,11 +198,15 @@ Set the type to UIButton
 
 <img src="_misc/action_name_type.png"/>
 
-Possible events for a UIButton. Leave the default, which is "Touch Up Inside" (the event is generated only when the button is touched and the finger is lifted from inside the button, whereas touching the button and dragging the finger outside of the button and lifting up the finger does not generate this event)
+Possible events for a UIButton. 
+
+Specify when an event should be generated and the action method should be called. 
 
 <img src="_misc/Possible%20events%20for%20a%20UIButton.png"/>
 
-<i>Setting number of arguments the action method accepts</i>
+Leave the default, which is "Touch Up Inside" (the event is generated only when the button is touched and the finger is lifted from inside the button, whereas touching the button and dragging the finger outside of the button and lifting up the finger does not generate this event)
+
+Setting number of arguments the action method accepts
 
 <img src="_misc/Possible%20arguements%20to%20send%20to%20an%20action%20method.png"/>
 
