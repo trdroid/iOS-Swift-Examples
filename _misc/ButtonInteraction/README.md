@@ -97,4 +97,9 @@ Therefore, to refer to an object in the storyboard or nib file from a controller
 * declare an <b>outlet</b> property in the controller class
 * connect the outlet property to the object in the storyboard or nib file
 
+<b> Triggering special methods on UI interaction </b>
+
+UI objects in the storyboard or nib file can be setup to respond to events with event handlers known as <b>action methods or actions</b>, which are defined as special methods in the controller class.
+
+
 
