@@ -110,10 +110,8 @@ The following example declares an outlet called "simpleButton" that can point to
 ```
 
 To refer to an object in the storyboard or nib file from a controller class
-
-STEP 1. declare an <b>outlet</b> property in the controller class of the type that matches with the type of the UI object to point to
-	
-STEP 2. connect the outlet property to the object in the storyboard or nib file
+* declare an <b>outlet</b> property in the controller class of the type that matches with the type of the UI object to point to
+* connect the outlet property to the object in the storyboard or nib file
 
 <b> Triggering special methods on UI interaction </b>
 
@@ -144,3 +142,14 @@ Event handlers come in three flavors:
 @IBAction func buttonEventHandler(sender: UIButton, forEvent event: UIEvent) {
 }
 ```
+
+To setup a UI control with an action method
+* define an action method in the controller
+* control drag from the UI control to the action method
+
+(or)
+
+* control drag from the UI control to the controller class where an action method has to be generated
+* a pop-up appears. Complete the settings to generate an action method
+
+
