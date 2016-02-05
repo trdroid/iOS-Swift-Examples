@@ -1,4 +1,8 @@
+### Creating the Project
+
 ### Project Contents
+
+The selected project template creates the following files in the newly created project along with some boilerplate code in the source files. 
 
 <img src="./_misc/FilesCreated.png"/>
 
@@ -21,6 +25,7 @@ The project contains
     Images.xcassets
 
 ### Application Delegate
+
 
 <i>AppDelegate.swift</i>
 
