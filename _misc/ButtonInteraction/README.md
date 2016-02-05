@@ -232,7 +232,7 @@ Control drag from the label to the controller class where the outlet property ha
 
 Pop-up 
 
-<img src="_misc/enter%20outlet%20property%20name.png"/>
+<img src="_misc/outlet%20popup.png"/>
 
 Enter name of the property 
 
