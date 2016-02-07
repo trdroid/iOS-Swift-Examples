@@ -97,7 +97,7 @@ class ViewController: UIViewController {
 }
 ```
 
-<b> Refer to objects in the storyboard or nib file from code </b>
+### Referring to objects in the storyboard or nib file from code
 
 A controller class can refer to objects in the storyboard or nib file by declaring a property called <b>outlet</b> and by connecting it to the object that the property should refer to. An outlet property could be considered as a pointer to an UI object in the storyboard or nib file. 
 
@@ -119,7 +119,7 @@ METHOD 2:
 * control drag from the UI control to the controller class where an outlet property has to be generated
 * a pop-up appears. Complete the settings to generate an outlet property
 
-<b> Triggering special methods on UI interaction </b>
+### Triggering special methods on UI interaction
 
 UI objects in the storyboard or nib file can be setup to respond to events with event handlers known as <b>action methods</b> or <b>actions</b>, which are defined as special methods in the controller class.
 
