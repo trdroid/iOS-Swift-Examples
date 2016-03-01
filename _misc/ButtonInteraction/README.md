@@ -97,7 +97,7 @@ class ViewController: UIViewController {
 }
 ```
 
-<b> Refer to objects in the storyboard or nib file from code </b>
+### Referring to objects in the storyboard or nib file from code
 
 A controller class can refer to objects in the storyboard or nib file by declaring a property called <b>outlet</b> and by connecting it to the object that the property should refer to. An outlet property could be considered as a pointer to an UI object in the storyboard or nib file. 
 
@@ -110,10 +110,16 @@ The following example declares an outlet called "simpleButton" that can point to
 ```
 
 To refer to an object in the storyboard or nib file from a controller class
+
+METHOD 1:
 * declare an <b>outlet</b> property in the controller class of the type that matches with the type of the UI object to point to
 * connect the outlet property to the object in the storyboard or nib file
 
-<b> Triggering special methods on UI interaction </b>
+METHOD 2:
+* control drag from the UI control to the controller class where an outlet property has to be generated
+* a pop-up appears. Complete the settings to generate an outlet property
+
+### Triggering special methods on UI interaction
 
 UI objects in the storyboard or nib file can be setup to respond to events with event handlers known as <b>action methods</b> or <b>actions</b>, which are defined as special methods in the controller class.
 
@@ -198,9 +204,7 @@ Set the type to UIButton
 
 <img src="_misc/action_name_type.png"/>
 
-Possible events for a UIButton. 
-
-Specify when an event should be generated and the action method should be called. 
+Possible events for a UIButton. Specify when an event should be generated and the action method should be called. 
 
 <img src="_misc/Possible%20events%20for%20a%20UIButton.png"/>
 
@@ -218,5 +222,23 @@ After clicking connect, the following action method is generated
 
 <img src="_misc/Control%20Drag%20From%20Button%20to%20an%20Existing%20action%20method.png"/>
 
+Drag and drop a label from the Object library. Select the label and open the attributes inspector 
 
+<img src="_misc/label%20and%20attributes%20inspector.png"/>
+
+Control drag from the label to the controller class where the outlet property has to be declared.
+
+<img src="_misc/control%20drag%20from%20label.png"/>
+
+Pop-up 
+
+<img src="_misc/outlet%20popup.png"/>
+
+Enter name of the property 
+
+<img src="_misc/enter%20outlet%20property%20name.png"/>
+
+Inserted outlet property
+
+<img src="_misc/outlet%20property%20inserted%20in%20code.png"/>
 
