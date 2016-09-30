@@ -1,4 +1,13 @@
+# Core Motion
 
+The Core Motion Framework can be used to access values from the Accelerometer and the Gyroscope sensors. 
+
+**Key Classes**
+
+* *CMMotionManager*
+* *CMDeviceMotion*
+* *CMAccelerometerData*
+* *CMGyroData*
 
 ### The Accelerometer Sensor
 
