@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qn-E7-oFu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5qn-E7-oFu">
                                 <rect key="frame" x="16" y="20" width="568" height="175"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -29,7 +29,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtI-Bw-0fq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WtI-Bw-0fq">
                                 <rect key="frame" x="16" y="392" width="568" height="187"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -40,10 +40,12 @@
                         <constraints>
                             <constraint firstItem="5qn-E7-oFu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="2Ht-1s-rcr"/>
                             <constraint firstItem="5qn-E7-oFu" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="CQY-nS-wX6"/>
+                            <constraint firstItem="cgg-yk-DHQ" firstAttribute="top" secondItem="5qn-E7-oFu" secondAttribute="bottom" constant="-1" id="S6G-wM-Amn"/>
                             <constraint firstItem="WtI-Bw-0fq" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XRp-7d-81N"/>
                             <constraint firstItem="cgg-yk-DHQ" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="cdp-jd-Qgy"/>
                             <constraint firstItem="WtI-Bw-0fq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fl8-RT-RbJ"/>
                             <constraint firstItem="5qn-E7-oFu" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="ggb-Wv-Lin"/>
+                            <constraint firstItem="WtI-Bw-0fq" firstAttribute="top" secondItem="cgg-yk-DHQ" secondAttribute="bottom" constant="-1" id="jNk-v0-QGz"/>
                             <constraint firstItem="cgg-yk-DHQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="pl6-lv-LDy"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WtI-Bw-0fq" secondAttribute="bottom" constant="21" id="vjB-eU-ZVb"/>
                         </constraints>
