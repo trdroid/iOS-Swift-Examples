@@ -53,7 +53,7 @@ If an app is intended to display views ONLY to the screen of the device that it 
 
 If an app is intended to display views on an external screen, then the app can contain additional App Window to contain those views.
 
-**Creation of the App Window**
+### App Window Creation
 
 If the app uses a main storyboard, the following steps take place behind the screens to create, populate and display the App Window.
 
@@ -79,6 +79,16 @@ If the app uses a main storyboard, the following steps take place behind the scr
 5] The *UIApplicationMain()* function calls *application(_:didFinishLaunchingWithOptions:)* method on the app delegate's instance.
 
 6] The *UIApplicationMain()* function calls *makeKeyAndVisible* method on the App Window's instance to make the App Window the key window of the app. The App Window contains the interface of the app which is not visible until the App Window is made the key window of the app. 
+
+***root view* of App Window**
+
+When the view controller instance is assigned to the App Window instance's *rootViewController* property, the view of the view controller is made the immediate subview of the App Window, which is referred to as the App Window's *root view*. 
+
+The *root view* is the top most *view* in the *view hierarchy* that the user usually sees.
+
+*Setting background color for the App Window*
+
+The App Window might be visible under certain circumstances before the user can see the *root view*, so assigning the App Window a decent background color is conventional.
 
 
 
