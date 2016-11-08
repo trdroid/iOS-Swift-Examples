@@ -62,7 +62,7 @@ If the app uses a main storyboard, the following steps take place behind the scr
 2] The *UIApplicationMain()* function instantiates and retains the following instances
 
 * an instance of *UIApplication* that can be used as the shared application instance, which can be referred to in code as *UIApplication.shared*
-* an instance of the app delegate class which is then assigned as the application instance's *delegate*. The app delegate class is identified by its annotation *@UIApplicationMain* 
+* an instance of the app delegate class which is then assigned as the application instance's *delegate*. The app delegate class is identified by its annotation *@UIApplicationMain*
 
 3] The *UIApplicationMain()* function checks to see if the app uses a main storyboard by looking at the value of the following key/property in *Info.plist*
 
@@ -70,8 +70,10 @@ If the app uses a main storyboard, the following steps take place behind the scr
 
 4] If the *UIApplicationMain()* function determines that the app uses a main storyboard, it 
 
-* Instantiates the App Window (*UIWindow* or *AnyCustomUIWindowSubClass*)
-* Assigns the instance of the App Window to the app delegate instance's *window* property. The app delegate instance's *window* property retains the instance of the App Window assigned to it to ensure that the App Window persists for the lifetime of the app.
+* Inquires the app delegate instance for the value of its *window* property. 
+* If the value is *nil*, instantiates the *UIWindow*
+* If the value is not *nil*, considers that instance. The valud is not *nil* in the case when the user explicitly returns an instance of a custom subclass of *UIWindow*.
+* Assigns the instance (*UIWindow* or *AnyCustomUIWindowSubClass*) to the app delegate instance's *window* property. The app delegate instance's *window* property retains the instance of the App Window assigned to it to ensure that the App Window persists for the lifetime of the app.
 * Sets the App Window's frame to the bounds of the screen to make the App Window fill the device's screen
 * Instantiates the initial view controller of the main storyboard
 * Assigns the view controller instance to the App Window instance's *rootViewController* property, which sets the view of the view controller as the *root view* of the App Window.
