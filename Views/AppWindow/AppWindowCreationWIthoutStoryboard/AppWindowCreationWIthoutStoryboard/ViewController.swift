@@ -1,8 +1,8 @@
 //
 //  ViewController.swift
-//  HandlingOrientations
+//  AppWindowCreationWIthoutStoryboard
 //
-//  Created by droid on 2016-11-05.
+//  Created by droid on 2016-11-08.
 //  Copyright © 2016 droid. All rights reserved.
 //
 
@@ -17,13 +17,9 @@ class ViewController: UIViewController {
 
 	override func didReceiveMemoryWarning() {
 		super.didReceiveMemoryWarning()
-		// Dispose of any resources that can berecreated.
+		// Dispose of any resources that can be recreated.
 	}
 
-	
-	override var supportedInterfaceOrientations() : UIInterfaceOrientationMask {
-		return UIInterfaceOrientationMask(rawValue: (UIInterfaceOrientationMask.portrait.rawValue)
-			| Int(UIInterfaceOrientationMask.landscapeLeft.rawValue))
-	}
+
 }
 
